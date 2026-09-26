@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Munshi Social: the AI content marketing engine for small teams</title>
+<meta name="description" content="Munshi Social plans, writes, publishes, and tracks blog articles and social posts for small teams, from one platform.">
+<meta property="og:title" content="Munshi Social">
+<meta property="og:description" content="The AI content marketing engine for small teams: plan, write, publish, and track blog articles and social posts from one platform.">
+<meta property="og:image" content="https://mubashirrrr.github.io/munshi-social/assets/cover-1200x630.png">
+<meta property="og:url" content="https://mubashirrrr.github.io/munshi-social/">
+<link rel="icon" href="assets/logo-512.png">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Munshi Social","alternateName":"Munshi","url":"https://munshi.social/","applicationCategory":"BusinessApplication","operatingSystem":"Web","description":"Munshi Social is the AI content marketing engine for small teams: it plans, writes, publishes, and tracks blog articles and social posts from one platform.","offers":{"@type":"Offer","price":"15","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Dojo Labs LLC"}}
+</script>
+<style>
+  :root {
+    --ink: #0b0b0c; --muted: #5f5f66; --line: #e4e4e7; --paper: #fafafa; --bg: #ffffff;
+    --violet: #ac00ef; --violet-soft: rgba(172, 0, 239, 0.08); --card: #ffffff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --ink: #f4f4f5; --muted: #a1a1aa; --line: #2a2a2e; --paper: #111113; --bg: #0a0a0b; --violet: #d05cff; --violet-soft: rgba(208, 92, 255, 0.12); --card: #151518; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.6 ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif; }
+  a { color: var(--violet); }
+  .wrap { max-width: 1040px; margin: 0 auto; padding: 0 20px; }
+  header { border-bottom: 1px solid var(--line); }
+  header .wrap { display: flex; align-items: center; justify-content: space-between; height: 64px; }
+  .brand { display: flex; align-items: center; gap: 10px; font-weight: 700; color: var(--ink); text-decoration: none; }
+  .brand img { width: 30px; height: 30px; border-radius: 8px; }
+  .btn { display: inline-block; padding: 12px 20px; border-radius: 999px; background: var(--ink); color: var(--bg); text-decoration: none; font-weight: 600; }
+  .btn.ghost { background: transparent; color: var(--ink); border: 1px solid var(--line); }
+  .hero { padding: 64px 0 32px; }
+  h1 { font-size: clamp(34px, 5vw, 56px); line-height: 1.08; letter-spacing: -0.03em; margin: 0 0 18px; }
+  h2 { font-size: clamp(26px, 3.4vw, 36px); letter-spacing: -0.02em; margin: 0 0 16px; line-height: 1.15; }
+  h3 { font-size: 19px; margin: 0 0 6px; }
+  .lead { font-size: clamp(18px, 2vw, 21px); color: var(--muted); max-width: 720px; }
+  .actions { display: flex; gap: 12px; flex-wrap: wrap; margin: 26px 0 10px; }
+  .note { font-size: 14px; color: var(--muted); }
+  figure { margin: 36px 0 0; }
+  figure img { width: 100%; height: auto; border-radius: 16px; border: 1px solid var(--line); display: block; }
+  figcaption { font-size: 14px; color: var(--muted); margin-top: 10px; }
+  section { padding: 56px 0; border-top: 1px solid var(--line); }
+  section.band { background: var(--paper); }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 20px; }
+  .card p { margin: 0; color: var(--muted); font-size: 16px; }
+  .step { font: 600 13px/1 ui-monospace, monospace; color: var(--violet); letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 10px; }
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 10px 0 0; padding: 0; list-style: none; }
+  .chips li { padding: 6px 12px; border: 1px solid var(--line); border-radius: 999px; font-size: 15px; background: var(--card); }
+  .price { font-size: 34px; font-weight: 700; letter-spacing: -0.02em; }
+  .price s { font-size: 18px; color: var(--muted); font-weight: 500; margin-left: 6px; }
+  ul.plain { margin: 10px 0 0; padding-left: 18px; color: var(--muted); font-size: 16px; }
+  .links { columns: 2 220px; padding: 0; list-style: none; margin: 0; }
+  .links li { margin: 0 0 8px; break-inside: avoid; }
+  footer { padding: 36px 0 48px; border-top: 1px solid var(--line); color: var(--muted); font-size: 14px; }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <a class="brand" href="https://munshi.social/"><img src="assets/logo-512.png" alt="Munshi Social logo" width="30" height="30">Munshi Social</a>
+    <a class="btn ghost" href="https://munshi.social/">munshi.social</a>
+  </div>
+</header>
+
+<main>
+  <div class="wrap hero">
+    <h1>Munshi Social, the AI content marketing engine for small teams</h1>
+    <p class="lead">Munshi plans, writes, publishes, and tracks your blog articles and social posts from one platform. Describe your business once, approve a weekly plan, and the articles land in your CMS while the posts go out to eight networks on one calendar.</p>
+    <div class="actions">
+      <a class="btn" href="https://app.munshi.social/">Start the 14-day free trial</a>
+      <a class="btn ghost" href="https://munshi.social/features/">See every feature</a>
+    </div>
+    <p class="note">14-day free trial with 3 articles and 50 posts. No card required. 7-day money-back on paid plans.</p>
+    <figure>
+      <img src="assets/screenshot-home-1280x802.png" alt="The Munshi Social home screen, showing this week's plan and what is scheduled across the blog and social networks." width="1280" height="802" loading="lazy">
+      <figcaption>Home: this week's plan and what goes out next, in one view.</figcaption>
+    </figure>
+  </div>
+
+  <section class="band">
+    <div class="wrap">
+      <h2>From plan to results, in four stages</h2>
+      <div class="grid">
+        <div class="card"><div class="step">01 Plan</div><h3>A strategy built from your business</h3><p>Describe the business and its customer once. Munshi maps the terms your customers search onto content pillars you approve, then proposes what to write each week.</p></div>
+        <div class="card"><div class="step">02 Write</div><h3>Articles and posts that come out ready</h3><p>Long-form articles drafted against your keywords and scored for both Google and AI answer engines. One idea becomes a post shaped for each network's limits.</p></div>
+        <div class="card"><div class="step">03 Publish</div><h3>Approved once, shipped everywhere</h3><p>Articles are written into your CMS in its own format. Posts go out on schedule. Nothing unapproved ever ships.</p></div>
+        <div class="card"><div class="step">04 Track</div><h3>Every channel's numbers in one view</h3><p>Reach, growth, and what worked, captured daily. Where a network reports nothing, Munshi says so instead of showing a zero.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2>Where it publishes</h2>
+      <p class="lead">Social posts go to eight networks. X is coming soon.</p>
+      <ul class="chips">
+        <li>Instagram</li><li>TikTok</li><li>LinkedIn</li><li>Facebook</li><li>Pinterest</li><li>Threads</li><li>YouTube</li><li>Bluesky</li>
+      </ul>
+      <p class="lead" style="margin-top:28px">Blog articles go to your CMS.</p>
+      <ul class="chips">
+        <li>WordPress</li><li>Ghost</li><li>Webflow</li><li>Framer</li><li>Sanity</li>
+      </ul>
+      <p class="note" style="margin-top:14px">Ghost, Webflow, and Framer receive articles as drafts you publish from your own dashboard. See <a href="https://munshi.social/integrations/">integrations</a> for how each platform receives them.</p>
+      <figure>
+        <img src="assets/screenshot-calendar-1280x802.png" alt="The Munshi Social calendar, a month view with blog and social entries on most days, colour-keyed by status." width="1280" height="802" loading="lazy">
+        <figcaption>The calendar: your blog and every network on one month.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="band">
+    <div class="wrap">
+      <h2>Pricing</h2>
+      <p class="lead">Founding prices climb as seats fill, and every member keeps the price they joined at.</p>
+      <div class="grid">
+        <div class="card"><h3>Founding</h3><div class="price">$15<span class="note">/mo</span> <s>$49</s></div><ul class="plain"><li>One brand</li><li>15 SEO articles a month</li><li>1,000 posts a month, no per-channel fees</li><li>Eight networks and your blog on one calendar</li></ul></div>
+        <div class="card"><h3>Studio</h3><div class="price">$29<span class="note">/mo</span> <s>$99</s></div><ul class="plain"><li>Three brands</li><li>45 articles a month, shared</li><li>3,000 posts a month, shared</li></ul></div>
+        <div class="card"><h3>Enterprise</h3><div class="price">Custom</div><ul class="plain"><li>Past three brands</li><li>Volume set to your publishing calendar</li></ul></div>
+      </div>
+      <p class="note" style="margin-top:16px">Current prices and terms: <a href="https://munshi.social/pricing/">munshi.social/pricing</a>.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2>Read more</h2>
+      <ul class="links">
+        <li><a href="https://munshi.social/">Munshi Social home</a></li>
+        <li><a href="https://munshi.social/what-is-munshi/">What is Munshi Social?</a></li>
+        <li><a href="https://munshi.social/features/">Features</a></li>
+        <li><a href="https://munshi.social/how-it-works/">How it works</a></li>
+        <li><a href="https://munshi.social/pricing/">Pricing</a></li>
+        <li><a href="https://munshi.social/integrations/">Integrations</a></li>
+        <li><a href="https://munshi.social/docs/">Guides and docs</a></li>
+        <li><a href="https://munshi.social/blog/">Blog</a></li>
+        <li><a href="https://munshi.social/changelog/">Changelog</a></li>
+        <li><a href="https://munshi.social/roadmap/">Roadmap</a></li>
+        <li><a href="https://munshi.social/about/">About</a></li>
+        <li><a href="https://discord.gg/G6yXPhsD4m">Community on Discord</a></li>
+      </ul>
+      <p class="note" style="margin-top:22px">Follow Munshi on
+        <a href="https://www.linkedin.com/company/munshi-social/">LinkedIn</a>,
+        <a href="https://www.instagram.com/munshi.social/">Instagram</a>,
+        <a href="https://www.threads.com/@munshi.social">Threads</a>,
+        <a href="https://www.youtube.com/@munshi.social">YouTube</a>,
+        <a href="https://www.tiktok.com/@munshi.social">TikTok</a> and
+        <a href="https://www.pinterest.com/munshisocial/">Pinterest</a>.</p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    Munshi Social is built by Dojo Labs LLC, founded by <a href="https://github.com/Mubashirrrr">Mubashir Rahim</a>. The product lives at <a href="https://munshi.social/">munshi.social</a>.
+  </div>
+</footer>
+</body>
+</html>
